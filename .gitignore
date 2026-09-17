@@ -27,7 +27,7 @@ build/
 dist/
 *.egg-info/
 
-# === 기타 ===
+# === 6. terraform 관련 ===
 .terraform
 .terraform.tfstate
 .terraform.lock.hcl
