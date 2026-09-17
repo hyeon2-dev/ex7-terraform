@@ -27,14 +27,7 @@ build/
 dist/
 *.egg-info/
 
-# === 6. Terraform 보호 파일 및 디렉토리 ===
-.terraform/
-*.tfstate
-*.tfstate.*
-crash.log
-*.tfvars
-!*.tfvars.example
-.terraform.lock.hcl
-
 # === 기타 ===
-.aws/             # Git 버전 관리
+.terraform
+.terraform.tfstate
+.terraform.lock.hcl
